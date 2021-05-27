@@ -186,7 +186,7 @@ namespace Mendez_TicTacToe
 
         private void btnExt_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }
