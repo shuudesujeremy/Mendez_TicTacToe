@@ -22,7 +22,18 @@ namespace Mendez_TicTacToe
 
         private void btn1_Click(object sender, EventArgs e)
         {
-
+            if(numPlayers % 2 == 0)
+            {
+                btn1.Text = "X";
+                playerTurns++;
+                numPlayers++;
+            }
+            else
+            {
+                btn1.Text = "O";
+                playerTurns++;
+                numPlayers++;
+            }
         }
 
         private void btn2_Click(object sender, EventArgs e)
