@@ -164,9 +164,24 @@ namespace Mendez_TicTacToe
             }
         }
 
+
+        void ResetGame()
+        {
+            btn1.Text = "";
+            btn2.Text = "";
+            btn3.Text = "";
+            btn4.Text = "";
+            btn5.Text = "";
+            btn6.Text = "";
+            btn7.Text = "";
+            btn8.Text = "";
+            btn9.Text = "";
+            numPlayers = 2;
+            playerTurns = 0;
+        }
         private void btnRes_Click(object sender, EventArgs e)
         {
-
+            ResetGame();
         }
 
         private void btnExt_Click(object sender, EventArgs e)
