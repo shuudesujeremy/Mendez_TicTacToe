@@ -38,42 +38,130 @@ namespace Mendez_TicTacToe
 
         private void btn2_Click(object sender, EventArgs e)
         {
-
+            if (numPlayers % 2 == 0)
+            {
+                btn2.Text = "X";
+                playerTurns++;
+                numPlayers++;
+            }
+            else
+            {
+                btn2.Text = "O";
+                playerTurns++;
+                numPlayers++;
+            }
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-
+            if (numPlayers % 2 == 0)
+            {
+                btn3.Text = "X";
+                playerTurns++;
+                numPlayers++;
+            }
+            else
+            {
+                btn3.Text = "O";
+                playerTurns++;
+                numPlayers++;
+            }
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
-
+            if (numPlayers % 2 == 0)
+            {
+                btn4.Text = "X";
+                playerTurns++;
+                numPlayers++;
+            }
+            else
+            {
+                btn4.Text = "O";
+                playerTurns++;
+                numPlayers++;
+            }
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
-
+            if (numPlayers % 2 == 0)
+            {
+                btn5.Text = "X";
+                playerTurns++;
+                numPlayers++;
+            }
+            else
+            {
+                btn5.Text = "O";
+                playerTurns++;
+                numPlayers++;
+            }
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
-
+            if (numPlayers % 2 == 0)
+            {
+                btn6.Text = "X";
+                playerTurns++;
+                numPlayers++;
+            }
+            else
+            {
+                btn6.Text = "O";
+                playerTurns++;
+                numPlayers++;
+            }
         }
 
         private void btn7_Click(object sender, EventArgs e)
         {
-
+            if (numPlayers % 2 == 0)
+            {
+                btn7.Text = "X";
+                playerTurns++;
+                numPlayers++;
+            }
+            else
+            {
+                btn7.Text = "O";
+                playerTurns++;
+                numPlayers++;
+            }
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
-
+            if (numPlayers % 2 == 0)
+            {
+                btn8.Text = "X";
+                playerTurns++;
+                numPlayers++;
+            }
+            else
+            {
+                btn8.Text = "O";
+                playerTurns++;
+                numPlayers++;
+            }
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
-
+            if (numPlayers % 2 == 0)
+            {
+                btn9.Text = "X";
+                playerTurns++;
+                numPlayers++;
+            }
+            else
+            {
+                btn9.Text = "O";
+                playerTurns++;
+                numPlayers++;
+            }
         }
 
         private void btnRes_Click(object sender, EventArgs e)
