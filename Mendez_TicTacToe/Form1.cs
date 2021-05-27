@@ -16,5 +16,13 @@ namespace Mendez_TicTacToe
         {
             InitializeComponent();
         }
+
+        int playerTurns = 0;
+        int numPlayers = 2;
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
