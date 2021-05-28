@@ -251,11 +251,11 @@ namespace Mendez_TicTacToe
 
 
                 }
-                if(winningCombi.Equals = "XXX")
+                if(winningCombi.Equals("XXX"))
                 {
                     MessageBox.Show("X won the game!");
                 }
-                else if(winningCombi.Equals = "OOO")
+                else if(winningCombi.Equals("OOO"))
                 {
                     MessageBox.Show("OOO won the game!");
                 }
