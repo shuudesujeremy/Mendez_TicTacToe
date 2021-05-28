@@ -222,10 +222,13 @@ namespace Mendez_TicTacToe
                 {
                     //horizontal winning combinations
                     case 1:
+                        winningCombi = btn1.Text + btn2.Text + btn3.Text;
                         break;
                     case 2:
+                        winningCombi = btn4.Text + btn5.Text + btn6.Text;
                         break;
                     case 3:
+                        winningCombi = btn7.Text + btn8.Text + btn9.Text;
                         break;
                     case 4:
                         break;
