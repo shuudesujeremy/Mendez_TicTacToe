@@ -31,7 +31,10 @@ namespace Mendez_TicTacToe
                 }
             }
             WinCondition();
-            DrawCondition();
+            if(DrawCondition() == true)
+            {
+                MessageBox.Show("Draw game!");
+            }
         }
 
         private void btn2_Click(object sender, EventArgs e)
@@ -53,7 +56,10 @@ namespace Mendez_TicTacToe
                 }
             }
             WinCondition();
-            DrawCondition();
+            if (DrawCondition() == true)
+            {
+                MessageBox.Show("Draw game!");
+            }
         }
 
         private void btn3_Click(object sender, EventArgs e)
