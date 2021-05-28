@@ -230,11 +230,15 @@ namespace Mendez_TicTacToe
                     case 3:
                         winningCombi = btn7.Text + btn8.Text + btn9.Text;
                         break;
+                    //vertical winning combinations
                     case 4:
+                        winningCombi = btn1.Text + btn4.Text + btn7.Text;
                         break;
                     case 5:
+                        winningCombi = btn2.Text + btn5.Text + btn8.Text;
                         break;
                     case 6:
+                        winningCombi = btn3.Text + btn6.Text + btn9.Text;
                         break;
                     case 7:
                         break;
