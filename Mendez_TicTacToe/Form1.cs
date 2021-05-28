@@ -264,6 +264,14 @@ namespace Mendez_TicTacToe
             }
         }
 
+        public void DrawCondition()
+        {
+            if(playerTurns == 9)
+            {
+                MessageBox.Show("Draw game!");
+            }
+        }
+
         private void btnExt_Click(object sender, EventArgs e)
         {
             this.Close();
