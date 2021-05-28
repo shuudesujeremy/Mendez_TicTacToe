@@ -213,6 +213,14 @@ namespace Mendez_TicTacToe
             ResetGame();
         }
 
+        public void WinCondition()
+        {
+            for(int x = 1; x < 9; x++)
+            {
+
+            }
+        }
+
         private void btnExt_Click(object sender, EventArgs e)
         {
             this.Close();
