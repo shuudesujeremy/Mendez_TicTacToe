@@ -218,6 +218,7 @@ namespace Mendez_TicTacToe
             for(int x = 1; x < 9; x++)
             {
                 string winningCombi = "";
+
                 switch (x) //9 cases in total
                 {
                     //horizontal winning combinations
@@ -247,6 +248,16 @@ namespace Mendez_TicTacToe
                     case 8:
                         winningCombi = btn3.Text + btn5.Text + btn7.Text;
                         break;
+
+
+                }
+                if(winningCombi.Equals = "XXX")
+                {
+                    MessageBox.Show("X won the game!");
+                }
+                else if(winningCombi.Equals = "OOO")
+                {
+                    MessageBox.Show("OOO won the game!");
                 }
             }
         }
