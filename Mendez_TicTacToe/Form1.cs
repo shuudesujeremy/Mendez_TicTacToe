@@ -80,7 +80,10 @@ namespace Mendez_TicTacToe
                 }
             }
             WinCondition();
-            DrawCondition();
+            if (DrawCondition() == true)
+            {
+                MessageBox.Show("Draw game!");
+            }
         }
 
         private void btn4_Click(object sender, EventArgs e)
@@ -101,7 +104,10 @@ namespace Mendez_TicTacToe
                 }
             }
             WinCondition();
-            DrawCondition();
+            if (DrawCondition() == true)
+            {
+                MessageBox.Show("Draw game!");
+            }
         }
 
         private void btn5_Click(object sender, EventArgs e)
@@ -122,7 +128,10 @@ namespace Mendez_TicTacToe
                 }
             }
             WinCondition();
-            DrawCondition();
+            if (DrawCondition() == true)
+            {
+                MessageBox.Show("Draw game!");
+            }
         }
 
         private void btn6_Click(object sender, EventArgs e)
@@ -143,7 +152,10 @@ namespace Mendez_TicTacToe
                 }
             }
             WinCondition();
-            DrawCondition();
+            if (DrawCondition() == true)
+            {
+                MessageBox.Show("Draw game!");
+            }
         }
 
         private void btn7_Click(object sender, EventArgs e)
@@ -164,7 +176,10 @@ namespace Mendez_TicTacToe
                 }
             }
             WinCondition();
-            DrawCondition();
+            if (DrawCondition() == true)
+            {
+                MessageBox.Show("Draw game!");
+            }
         }
 
         private void btn8_Click(object sender, EventArgs e)
@@ -185,7 +200,10 @@ namespace Mendez_TicTacToe
                 }
             }
             WinCondition();
-            DrawCondition();
+            if (DrawCondition() == true)
+            {
+                MessageBox.Show("Draw game!");
+            }
         }
 
         private void btn9_Click(object sender, EventArgs e)
@@ -207,7 +225,10 @@ namespace Mendez_TicTacToe
                 }
             }
             WinCondition();
-            DrawCondition();
+            if (DrawCondition() == true)
+            {
+                MessageBox.Show("Draw game!");
+            }
         }
 
 
