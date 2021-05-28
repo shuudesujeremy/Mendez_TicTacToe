@@ -217,7 +217,27 @@ namespace Mendez_TicTacToe
         {
             for(int x = 1; x < 9; x++)
             {
-
+                string winningCombi = "";
+                switch (x) //9 cases in total
+                {
+                    //horizontal winning combinations
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        break;
+                    case 5:
+                        break;
+                    case 6:
+                        break;
+                    case 7:
+                        break;
+                    case 8:
+                        break;
+                }
             }
         }
 
