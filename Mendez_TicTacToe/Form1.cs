@@ -273,11 +273,15 @@ namespace Mendez_TicTacToe
             }
         }
 
-        public void DrawCondition()
+        bool DrawCondition()
         {
             if(playerTurns == 9)
             {
-                MessageBox.Show("Draw game!");
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
 
