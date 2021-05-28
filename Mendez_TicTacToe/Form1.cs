@@ -175,7 +175,7 @@ namespace Mendez_TicTacToe
 
         private void btn9_Click(object sender, EventArgs e)
         {
-            if (btn1.Text == "")
+            if (btn9.Text == "")
             {
 
                 if (numPlayers % 2 == 0)
