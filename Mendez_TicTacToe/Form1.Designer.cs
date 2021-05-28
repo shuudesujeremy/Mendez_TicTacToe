@@ -45,7 +45,7 @@ namespace Mendez_TicTacToe
             // btn1
             // 
             this.btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1.Location = new System.Drawing.Point(249, 51);
+            this.btn1.Location = new System.Drawing.Point(101, 186);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(80, 80);
             this.btn1.TabIndex = 0;
@@ -55,7 +55,7 @@ namespace Mendez_TicTacToe
             // btn2
             // 
             this.btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn2.Location = new System.Drawing.Point(335, 51);
+            this.btn2.Location = new System.Drawing.Point(187, 186);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(80, 80);
             this.btn2.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace Mendez_TicTacToe
             // btn3
             // 
             this.btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn3.Location = new System.Drawing.Point(421, 51);
+            this.btn3.Location = new System.Drawing.Point(273, 186);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(80, 80);
             this.btn3.TabIndex = 2;
@@ -75,7 +75,7 @@ namespace Mendez_TicTacToe
             // btn4
             // 
             this.btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn4.Location = new System.Drawing.Point(249, 137);
+            this.btn4.Location = new System.Drawing.Point(101, 272);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(80, 80);
             this.btn4.TabIndex = 3;
@@ -85,7 +85,7 @@ namespace Mendez_TicTacToe
             // btn5
             // 
             this.btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn5.Location = new System.Drawing.Point(335, 137);
+            this.btn5.Location = new System.Drawing.Point(187, 272);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(80, 80);
             this.btn5.TabIndex = 4;
@@ -95,7 +95,7 @@ namespace Mendez_TicTacToe
             // btn6
             // 
             this.btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn6.Location = new System.Drawing.Point(421, 137);
+            this.btn6.Location = new System.Drawing.Point(273, 272);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(80, 80);
             this.btn6.TabIndex = 5;
@@ -105,7 +105,7 @@ namespace Mendez_TicTacToe
             // btn7
             // 
             this.btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn7.Location = new System.Drawing.Point(249, 223);
+            this.btn7.Location = new System.Drawing.Point(101, 358);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(80, 80);
             this.btn7.TabIndex = 6;
@@ -115,7 +115,7 @@ namespace Mendez_TicTacToe
             // btn8
             // 
             this.btn8.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn8.Location = new System.Drawing.Point(335, 223);
+            this.btn8.Location = new System.Drawing.Point(187, 358);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(80, 80);
             this.btn8.TabIndex = 7;
@@ -125,7 +125,7 @@ namespace Mendez_TicTacToe
             // btn9
             // 
             this.btn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn9.Location = new System.Drawing.Point(421, 223);
+            this.btn9.Location = new System.Drawing.Point(273, 358);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(80, 80);
             this.btn9.TabIndex = 8;
@@ -134,7 +134,7 @@ namespace Mendez_TicTacToe
             // 
             // btnRes
             // 
-            this.btnRes.Location = new System.Drawing.Point(249, 342);
+            this.btnRes.Location = new System.Drawing.Point(101, 477);
             this.btnRes.Name = "btnRes";
             this.btnRes.Size = new System.Drawing.Size(80, 40);
             this.btnRes.TabIndex = 9;
@@ -144,7 +144,7 @@ namespace Mendez_TicTacToe
             // 
             // btnExt
             // 
-            this.btnExt.Location = new System.Drawing.Point(421, 342);
+            this.btnExt.Location = new System.Drawing.Point(273, 477);
             this.btnExt.Name = "btnExt";
             this.btnExt.Size = new System.Drawing.Size(80, 40);
             this.btnExt.TabIndex = 10;
@@ -156,7 +156,7 @@ namespace Mendez_TicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(488, 710);
             this.Controls.Add(this.btnExt);
             this.Controls.Add(this.btnRes);
             this.Controls.Add(this.btn9);
