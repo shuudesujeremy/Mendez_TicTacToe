@@ -257,7 +257,7 @@ namespace Mendez_TicTacToe
                 }
                 else if(winningCombi.Equals("OOO"))
                 {
-                    MessageBox.Show("OOO won the game!");
+                    MessageBox.Show("O won the game!");
                 }
             }
         }
