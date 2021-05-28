@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Mendez_TicTacToe
@@ -37,6 +30,7 @@ namespace Mendez_TicTacToe
                     numPlayers++;
                 }
             }
+            WinCondition();
         }
 
         private void btn2_Click(object sender, EventArgs e)
@@ -57,6 +51,7 @@ namespace Mendez_TicTacToe
                     numPlayers++;
                 }
             }
+            WinCondition();
         }
 
         private void btn3_Click(object sender, EventArgs e)
@@ -76,6 +71,7 @@ namespace Mendez_TicTacToe
                     numPlayers++;
                 }
             }
+            WinCondition();
         }
 
         private void btn4_Click(object sender, EventArgs e)
@@ -95,6 +91,7 @@ namespace Mendez_TicTacToe
                     numPlayers++;
                 }
             }
+            WinCondition();
         }
 
         private void btn5_Click(object sender, EventArgs e)
@@ -114,6 +111,7 @@ namespace Mendez_TicTacToe
                     numPlayers++;
                 }
             }
+            WinCondition();
         }
 
         private void btn6_Click(object sender, EventArgs e)
@@ -133,6 +131,7 @@ namespace Mendez_TicTacToe
                     numPlayers++;
                 }
             }
+            WinCondition();
         }
 
         private void btn7_Click(object sender, EventArgs e)
@@ -152,6 +151,7 @@ namespace Mendez_TicTacToe
                     numPlayers++;
                 }
             }
+            WinCondition();
         }
 
         private void btn8_Click(object sender, EventArgs e)
@@ -171,6 +171,7 @@ namespace Mendez_TicTacToe
                     numPlayers++;
                 }
             }
+            WinCondition();
         }
 
         private void btn9_Click(object sender, EventArgs e)
@@ -191,6 +192,7 @@ namespace Mendez_TicTacToe
                     numPlayers++;
                 }
             }
+            WinCondition();
         }
 
 
@@ -215,7 +217,7 @@ namespace Mendez_TicTacToe
 
         public void WinCondition()
         {
-            for(int x = 1; x < 9; x++)
+            for (int x = 1; x < 9; x++)
             {
                 string winningCombi = "";
 
@@ -251,11 +253,11 @@ namespace Mendez_TicTacToe
 
 
                 }
-                if(winningCombi.Equals("XXX"))
+                if (winningCombi.Equals("XXX"))
                 {
                     MessageBox.Show("X won the game!");
                 }
-                else if(winningCombi.Equals("OOO"))
+                else if (winningCombi.Equals("OOO"))
                 {
                     MessageBox.Show("O won the game!");
                 }
