@@ -257,7 +257,7 @@ namespace Mendez_TicTacToe
             {
                 string winningCombi = "";
 
-                switch (x) //9 cases in total
+                switch (x) //8 cases in total
                 {
                     //horizontal winning combinations
                     case 1:
