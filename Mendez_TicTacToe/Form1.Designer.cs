@@ -40,6 +40,9 @@ namespace Mendez_TicTacToe
             this.btn9 = new System.Windows.Forms.Button();
             this.btnRes = new System.Windows.Forms.Button();
             this.btnExt = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn1
@@ -152,11 +155,44 @@ namespace Mendez_TicTacToe
             this.btnExt.UseVisualStyleBackColor = true;
             this.btnExt.Click += new System.EventHandler(this.btnExt_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(44, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(401, 55);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Play Tic-Tac-Toe!";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(146, 74);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(168, 32);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Player 1 = X";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(146, 118);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(171, 32);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Player 2 = O";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(488, 710);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExt);
             this.Controls.Add(this.btnRes);
             this.Controls.Add(this.btn9);
@@ -171,6 +207,7 @@ namespace Mendez_TicTacToe
             this.Name = "Form1";
             this.Text = "Tic Tac Toe Board";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -187,6 +224,9 @@ namespace Mendez_TicTacToe
         private System.Windows.Forms.Button btn9;
         private System.Windows.Forms.Button btnRes;
         private System.Windows.Forms.Button btnExt;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }
 
